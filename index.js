@@ -1,4 +1,4 @@
-const {scan} = require("./lib");
+const { scan } = require("./lib");
 
 main("test@test.com");
 
