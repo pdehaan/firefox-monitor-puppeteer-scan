@@ -1,0 +1,17 @@
+{
+  "name": "blurts-puppeteer-scan",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bin": "cli.js",
+  "dependencies": {
+    "puppeteer": "1.12.2"
+  },
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "lib.js",
+  "scripts": {
+    "start": "node index",
+    "screenshot": "node screenshot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
