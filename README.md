@@ -18,7 +18,8 @@ Found 175 breaches for test@test.com
 ### API
 
 ```js
-const { scan } = require("./lib");
+// npm i pdehaan/firefox-monitor-puppeteer-scan -D
+const { scan } = require("firefox-monitor-puppeteer-scan");
 
 main("test@test.com");
 
